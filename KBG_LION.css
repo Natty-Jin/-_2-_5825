@@ -1,0 +1,202 @@
+
+body{
+    font-family: 'nanumgothic';
+    font-size: 13px;
+    color: #222;
+    margin:0;
+    padding:0;
+    background-color:#515355;
+}
+
+.background{
+   background-color: #515355;
+}
+/* 팝업(modal)디자인 */
+.container {
+    background-color: #ffffff;
+    height: 85vh;
+    margin:32px 23% 0 23%;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+}
+
+/* 로그인 또는 회원가입 */
+header{
+    border-bottom: 1px solid lightgray;
+    background-color: #fff;
+    padding: 5px;
+    border-top: 0px solid rgb(184, 181, 181);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header2{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 15px ;
+    color: #222;
+    position: relative;
+}
+.header2 p:nth-of-type(){
+    position: absolute;
+    top: -50px;
+}
+
+/* close img CSS */
+.close {
+    position: relative;
+}
+
+.close img{
+    position: absolute;
+    top: -32px;
+    right: 17px;
+}
+/* Login  */
+.login{
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 위니브 궁금증*/
+.help{
+    text-align: left;
+    padding: 3px;
+    top: -10px;
+}
+
+section{
+    margin-bottom: 20x;
+    text-align: left;
+    color: #6d6f79;
+}
+section img{
+    vertical-align: middle;
+}
+
+.imgswap img:last-child{display:none}
+.imgswap:hover img:first-child{display:none}
+.imgswap:hover img:last-child{display:inline-block} 
+
+
+
+.login-type{
+    text-align: center;
+}
+
+
+.login-type a:nth-of-type(1) {
+    background-color: #0077fefb;
+    color: #fff;
+    font-size: 23px;
+        border-radius: 5px;
+}
+.login-type a:nth-of-type(2) {
+    background-color: #fff;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+}
+.login-type a:nth-of-type(3) {
+    background-color: #fff;
+    border: 1px solid rgb(27, 88, 218);
+    border-radius: 5px;
+}
+.login-type a:nth-of-type(4) {
+    background-color: #fff;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.login-type a:nth-of-type(5) {
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+
+
+/* btn CSS */
+a.btn {
+    display: block;
+    text-decoration: none;
+    color: #515355;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.8;
+    margin-bottom: 10px; 
+    position: relative;
+}
+
+a.btn:hover { 
+opacity: 1;
+}
+
+a.btn2:before, a.btn4:before, a.btn5:before{
+    left: 15px;
+    top: 5px;
+    position: absolute;
+}
+
+a.btn1:before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* 또는 CSS*/
+span.or-txt1 {
+    display: block;
+    margin: 15px 0;
+    position: relative;
+    color: #7c7f8d;
+}
+
+span.or-txt {
+    display: block;
+    margin: 15px 0;
+    position: relative;
+    color: #898c9b;
+}
+span.or-txt:before{
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background-color: #d3d2d2;
+    width: 44%;
+    height: 1px;
+}
+
+span.or-txt:after{
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background-color: #d3d2d2;
+    width: 44%;
+    height: 1px;
+}
+
+a.btn2:before {
+    content: url(KBG_LION_img/icon_google.png);
+}
+a.btn3:before {
+    content: url(KBG_LION_img/icon_facebook.png);
+    position: absolute;
+    left: 17px;
+    top: 5px;
+}
+a.btn4:before {
+    content: url(KBG_LION_img/icon_naver.png);
+}
+a.btn5:before {
+    content: url(KBG_LION_img/icon_kakao.png);
+}
+
+
+
